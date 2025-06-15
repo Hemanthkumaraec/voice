@@ -1,0 +1,37 @@
+  body {
+            font-family: 'Inter', sans-serif; /* Using Inter for a modern look */
+        }
+        .header {
+            background-color: #007bff; /* Primary Bootstrap color */
+            color: white;
+            padding: 1rem; /* Spacing for the header */
+            
+            border-bottom-left-radius: 1rem; /* Rounded corners for the header */
+            border-bottom-right-radius: 1rem;
+        }
+        .card {
+            border-radius: 1rem; /* Consistent rounded corners */
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Soft shadow */
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            border-radius: 0.5rem; /* Slightly rounded buttons */
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        .form-control {
+            border-radius: 0.5rem; /* Rounded form controls */
+        }
+        .btn-group{
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .btn-group .btn{
+            margin: 0.5rem; /* Spacing between buttons */
+            flex: 1; /* Make buttons take equal space */
+            border: 1px solid #a3c9e4; /* Border to match primary color */
+            border-radius: 0.5rem; /* Rounded corners for buttons */
+        }
